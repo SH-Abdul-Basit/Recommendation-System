@@ -1,0 +1,9 @@
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/AI-Based-Recommendation-System.dir
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/install.dir
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/install/local.dir
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/install/strip.dir
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps.dir
+/home/y2ksurviver/Projects/Recommendation-System/AI-Based-Recommendation-System/build/CLone_of_Desktop-Debug/CMakeFiles/AI-Based-Recommendation-System_autogen.dir
