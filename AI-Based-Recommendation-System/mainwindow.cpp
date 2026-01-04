@@ -5,10 +5,13 @@
 #include <QCheckBox>
 #include <QList>
 #include <QDebug>
+#include <QSlider>
+#include <QLabel>
+#include <QStringList>
 
 struct Movie
 {
-    std::string genre;
+    QStringList genres;
     int lowTime;
     int highTime;
     int lowYear;
@@ -30,10 +33,20 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::recommendPressed() {
+    Movie m;
+
+    // Setting the requirements
     QList<QCheckBox*> options = ui->genre->findChildren<QCheckBox*>();
     for (QCheckBox* checkBox: options) {
         if (checkBox->isChecked()) {
-            qDebug() << checkBox->text();
+            m.genres.append(checkBox->text());
         }
     }
+
+    m.highTime = ui->highTime->text().toInt();
+    m.lowTime = ui->lowTime->text().toInt();
+    m.highYear = ui->highYear->text().toInt();
+    m.lowYear = ui->highYear->text().toInt();
+
+
 }

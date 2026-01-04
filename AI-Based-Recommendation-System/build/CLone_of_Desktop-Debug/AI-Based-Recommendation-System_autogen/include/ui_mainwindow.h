@@ -40,34 +40,36 @@ public:
     QPushButton *recommend;
     QGroupBox *groupBox;
     QWidget *widget;
-    QHBoxLayout *horizontalLayout_5;
+    QVBoxLayout *weightageSection;
+    QHBoxLayout *genreSection;
     QLabel *label_5;
-    QSlider *horizontalSlider;
-    QWidget *widget1;
-    QHBoxLayout *horizontalLayout_6;
+    QSlider *genreSlider;
+    QLabel *genreWeight;
+    QHBoxLayout *durationSection;
     QLabel *label_6;
-    QSlider *horizontalSlider_2;
-    QWidget *widget2;
-    QHBoxLayout *horizontalLayout_7;
+    QSlider *durationSlider;
+    QLabel *durationWeight;
+    QHBoxLayout *yearSection;
     QLabel *label_7;
-    QSlider *horizontalSlider_3;
+    QSlider *yearSlider;
+    QLabel *yearWeight;
     QPushButton *pushButton;
-    QWidget *widget3;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout_2;
     QHBoxLayout *horizontalLayout;
     QLabel *label;
-    QLineEdit *lineEdit;
+    QLineEdit *highTime;
     QHBoxLayout *horizontalLayout_2;
     QLabel *label_2;
-    QLineEdit *lineEdit_2;
-    QWidget *widget4;
+    QLineEdit *lowTime;
+    QWidget *layoutWidget1;
     QVBoxLayout *verticalLayout_3;
     QHBoxLayout *horizontalLayout_3;
     QLabel *label_3;
-    QLineEdit *lineEdit_3;
+    QLineEdit *lowYear;
     QHBoxLayout *horizontalLayout_4;
     QLabel *label_4;
-    QLineEdit *lineEdit_4;
+    QLineEdit *highYear;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -75,12 +77,12 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(773, 427);
+        MainWindow->resize(903, 476);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         genre = new QGroupBox(centralwidget);
         genre->setObjectName(QString::fromUtf8("genre"));
-        genre->setGeometry(QRect(20, 20, 141, 211));
+        genre->setGeometry(QRect(10, 10, 151, 221));
         verticalLayout = new QVBoxLayout(genre);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         checkBox = new QCheckBox(genre);
@@ -111,138 +113,156 @@ public:
 
         recommend = new QPushButton(centralwidget);
         recommend->setObjectName(QString::fromUtf8("recommend"));
-        recommend->setGeometry(QRect(20, 310, 151, 41));
+        recommend->setGeometry(QRect(10, 290, 151, 41));
         groupBox = new QGroupBox(centralwidget);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(500, 40, 251, 201));
+        groupBox->setGeometry(QRect(530, 20, 291, 211));
         widget = new QWidget(groupBox);
         widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(10, 30, 221, 31));
-        horizontalLayout_5 = new QHBoxLayout(widget);
-        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
-        horizontalLayout_5->setContentsMargins(0, 0, 0, 0);
+        widget->setGeometry(QRect(0, 20, 291, 191));
+        weightageSection = new QVBoxLayout(widget);
+        weightageSection->setObjectName(QString::fromUtf8("weightageSection"));
+        weightageSection->setContentsMargins(0, 0, 0, 0);
+        genreSection = new QHBoxLayout();
+        genreSection->setObjectName(QString::fromUtf8("genreSection"));
         label_5 = new QLabel(widget);
         label_5->setObjectName(QString::fromUtf8("label_5"));
 
-        horizontalLayout_5->addWidget(label_5);
+        genreSection->addWidget(label_5);
 
-        horizontalSlider = new QSlider(widget);
-        horizontalSlider->setObjectName(QString::fromUtf8("horizontalSlider"));
-        horizontalSlider->setMinimum(1);
-        horizontalSlider->setMaximum(5);
-        horizontalSlider->setOrientation(Qt::Horizontal);
+        genreSlider = new QSlider(widget);
+        genreSlider->setObjectName(QString::fromUtf8("genreSlider"));
+        genreSlider->setMinimum(1);
+        genreSlider->setMaximum(5);
+        genreSlider->setOrientation(Qt::Horizontal);
 
-        horizontalLayout_5->addWidget(horizontalSlider);
+        genreSection->addWidget(genreSlider);
 
-        widget1 = new QWidget(groupBox);
-        widget1->setObjectName(QString::fromUtf8("widget1"));
-        widget1->setGeometry(QRect(10, 80, 231, 31));
-        horizontalLayout_6 = new QHBoxLayout(widget1);
-        horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
-        horizontalLayout_6->setContentsMargins(0, 0, 0, 0);
-        label_6 = new QLabel(widget1);
+        genreWeight = new QLabel(widget);
+        genreWeight->setObjectName(QString::fromUtf8("genreWeight"));
+
+        genreSection->addWidget(genreWeight);
+
+
+        weightageSection->addLayout(genreSection);
+
+        durationSection = new QHBoxLayout();
+        durationSection->setObjectName(QString::fromUtf8("durationSection"));
+        label_6 = new QLabel(widget);
         label_6->setObjectName(QString::fromUtf8("label_6"));
 
-        horizontalLayout_6->addWidget(label_6);
+        durationSection->addWidget(label_6);
 
-        horizontalSlider_2 = new QSlider(widget1);
-        horizontalSlider_2->setObjectName(QString::fromUtf8("horizontalSlider_2"));
-        horizontalSlider_2->setMinimum(1);
-        horizontalSlider_2->setMaximum(5);
-        horizontalSlider_2->setOrientation(Qt::Horizontal);
+        durationSlider = new QSlider(widget);
+        durationSlider->setObjectName(QString::fromUtf8("durationSlider"));
+        durationSlider->setMinimum(1);
+        durationSlider->setMaximum(5);
+        durationSlider->setOrientation(Qt::Horizontal);
 
-        horizontalLayout_6->addWidget(horizontalSlider_2);
+        durationSection->addWidget(durationSlider);
 
-        widget2 = new QWidget(groupBox);
-        widget2->setObjectName(QString::fromUtf8("widget2"));
-        widget2->setGeometry(QRect(10, 130, 221, 31));
-        horizontalLayout_7 = new QHBoxLayout(widget2);
-        horizontalLayout_7->setObjectName(QString::fromUtf8("horizontalLayout_7"));
-        horizontalLayout_7->setContentsMargins(0, 0, 0, 0);
-        label_7 = new QLabel(widget2);
+        durationWeight = new QLabel(widget);
+        durationWeight->setObjectName(QString::fromUtf8("durationWeight"));
+
+        durationSection->addWidget(durationWeight);
+
+
+        weightageSection->addLayout(durationSection);
+
+        yearSection = new QHBoxLayout();
+        yearSection->setObjectName(QString::fromUtf8("yearSection"));
+        label_7 = new QLabel(widget);
         label_7->setObjectName(QString::fromUtf8("label_7"));
 
-        horizontalLayout_7->addWidget(label_7);
+        yearSection->addWidget(label_7);
 
-        horizontalSlider_3 = new QSlider(widget2);
-        horizontalSlider_3->setObjectName(QString::fromUtf8("horizontalSlider_3"));
-        horizontalSlider_3->setMinimum(1);
-        horizontalSlider_3->setMaximum(5);
-        horizontalSlider_3->setOrientation(Qt::Horizontal);
+        yearSlider = new QSlider(widget);
+        yearSlider->setObjectName(QString::fromUtf8("yearSlider"));
+        yearSlider->setMinimum(1);
+        yearSlider->setMaximum(5);
+        yearSlider->setOrientation(Qt::Horizontal);
 
-        horizontalLayout_7->addWidget(horizontalSlider_3);
+        yearSection->addWidget(yearSlider);
+
+        yearWeight = new QLabel(widget);
+        yearWeight->setObjectName(QString::fromUtf8("yearWeight"));
+
+        yearSection->addWidget(yearWeight);
+
+
+        weightageSection->addLayout(yearSection);
 
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(200, 310, 161, 41));
-        widget3 = new QWidget(centralwidget);
-        widget3->setObjectName(QString::fromUtf8("widget3"));
-        widget3->setGeometry(QRect(180, 41, 315, 67));
-        verticalLayout_2 = new QVBoxLayout(widget3);
+        pushButton->setGeometry(QRect(200, 290, 161, 41));
+        layoutWidget = new QWidget(centralwidget);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(190, 40, 315, 67));
+        verticalLayout_2 = new QVBoxLayout(layoutWidget);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        label = new QLabel(widget3);
+        label = new QLabel(layoutWidget);
         label->setObjectName(QString::fromUtf8("label"));
 
         horizontalLayout->addWidget(label);
 
-        lineEdit = new QLineEdit(widget3);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        highTime = new QLineEdit(layoutWidget);
+        highTime->setObjectName(QString::fromUtf8("highTime"));
 
-        horizontalLayout->addWidget(lineEdit);
+        horizontalLayout->addWidget(highTime);
 
 
         verticalLayout_2->addLayout(horizontalLayout);
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        label_2 = new QLabel(widget3);
+        label_2 = new QLabel(layoutWidget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
 
         horizontalLayout_2->addWidget(label_2);
 
-        lineEdit_2 = new QLineEdit(widget3);
-        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        lowTime = new QLineEdit(layoutWidget);
+        lowTime->setObjectName(QString::fromUtf8("lowTime"));
 
-        horizontalLayout_2->addWidget(lineEdit_2);
+        horizontalLayout_2->addWidget(lowTime);
 
 
         verticalLayout_2->addLayout(horizontalLayout_2);
 
-        widget4 = new QWidget(centralwidget);
-        widget4->setObjectName(QString::fromUtf8("widget4"));
-        widget4->setGeometry(QRect(180, 150, 269, 67));
-        verticalLayout_3 = new QVBoxLayout(widget4);
+        layoutWidget1 = new QWidget(centralwidget);
+        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
+        layoutWidget1->setGeometry(QRect(190, 170, 269, 67));
+        verticalLayout_3 = new QVBoxLayout(layoutWidget1);
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
-        label_3 = new QLabel(widget4);
+        label_3 = new QLabel(layoutWidget1);
         label_3->setObjectName(QString::fromUtf8("label_3"));
 
         horizontalLayout_3->addWidget(label_3);
 
-        lineEdit_3 = new QLineEdit(widget4);
-        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lowYear = new QLineEdit(layoutWidget1);
+        lowYear->setObjectName(QString::fromUtf8("lowYear"));
 
-        horizontalLayout_3->addWidget(lineEdit_3);
+        horizontalLayout_3->addWidget(lowYear);
 
 
         verticalLayout_3->addLayout(horizontalLayout_3);
 
         horizontalLayout_4 = new QHBoxLayout();
         horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
-        label_4 = new QLabel(widget4);
+        label_4 = new QLabel(layoutWidget1);
         label_4->setObjectName(QString::fromUtf8("label_4"));
 
         horizontalLayout_4->addWidget(label_4);
 
-        lineEdit_4 = new QLineEdit(widget4);
-        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
+        highYear = new QLineEdit(layoutWidget1);
+        highYear->setObjectName(QString::fromUtf8("highYear"));
 
-        horizontalLayout_4->addWidget(lineEdit_4);
+        horizontalLayout_4->addWidget(highYear);
 
 
         verticalLayout_3->addLayout(horizontalLayout_4);
@@ -250,13 +270,16 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 773, 25));
+        menubar->setGeometry(QRect(0, 0, 903, 25));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
         MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
+        QObject::connect(genreSlider, SIGNAL(valueChanged(int)), genreWeight, SLOT(setNum(int)));
+        QObject::connect(durationSlider, SIGNAL(valueChanged(int)), durationWeight, SLOT(setNum(int)));
+        QObject::connect(yearSlider, SIGNAL(valueChanged(int)), yearWeight, SLOT(setNum(int)));
 
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
@@ -271,10 +294,13 @@ public:
         checkBox_4->setText(QCoreApplication::translate("MainWindow", "Horror", nullptr));
         checkBox_5->setText(QCoreApplication::translate("MainWindow", "Scifi", nullptr));
         recommend->setText(QCoreApplication::translate("MainWindow", "Recommend", nullptr));
-        groupBox->setTitle(QCoreApplication::translate("MainWindow", "Score", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("MainWindow", "Weightage", nullptr));
         label_5->setText(QCoreApplication::translate("MainWindow", "Genre", nullptr));
+        genreWeight->setText(QCoreApplication::translate("MainWindow", "1", nullptr));
         label_6->setText(QCoreApplication::translate("MainWindow", "Duration", nullptr));
+        durationWeight->setText(QCoreApplication::translate("MainWindow", "1", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "Year", nullptr));
+        yearWeight->setText(QCoreApplication::translate("MainWindow", "1", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Shortest Duration: ", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Longest Duration:", nullptr));

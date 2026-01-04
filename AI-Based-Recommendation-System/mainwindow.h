@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QSlider>
+#include <QLabel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,6 +21,7 @@ public:
 
 private slots:
     void recommendPressed();
+
 private:
     Ui::MainWindow *ui;
 };

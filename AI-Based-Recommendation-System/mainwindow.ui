@@ -71,7 +71,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>270</y>
+      <y>290</y>
       <width>151</width>
       <height>41</height>
      </rect>
@@ -84,26 +84,26 @@
     <property name="geometry">
      <rect>
       <x>530</x>
-      <y>30</y>
-      <width>281</width>
-      <height>201</height>
+      <y>20</y>
+      <width>291</width>
+      <height>211</height>
      </rect>
     </property>
     <property name="title">
-     <string>Score</string>
+     <string>Weightage</string>
     </property>
     <widget class="QWidget" name="">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>30</y>
-       <width>251</width>
-       <height>161</height>
+       <x>0</x>
+       <y>20</y>
+       <width>291</width>
+       <height>191</height>
       </rect>
      </property>
-     <layout class="QVBoxLayout" name="verticalLayout_4">
+     <layout class="QVBoxLayout" name="weightageSection">
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <layout class="QHBoxLayout" name="genreSection">
         <item>
          <widget class="QLabel" name="label_5">
           <property name="text">
@@ -112,7 +112,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QSlider" name="horizontalSlider">
+         <widget class="QSlider" name="genreSlider">
           <property name="minimum">
            <number>1</number>
           </property>
@@ -124,10 +124,17 @@
           </property>
          </widget>
         </item>
+        <item>
+         <widget class="QLabel" name="genreWeight">
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <layout class="QHBoxLayout" name="durationSection">
         <item>
          <widget class="QLabel" name="label_6">
           <property name="text">
@@ -136,7 +143,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QSlider" name="horizontalSlider_2">
+         <widget class="QSlider" name="durationSlider">
           <property name="minimum">
            <number>1</number>
           </property>
@@ -148,10 +155,17 @@
           </property>
          </widget>
         </item>
+        <item>
+         <widget class="QLabel" name="durationWeight">
+          <property name="text">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <layout class="QHBoxLayout" name="yearSection">
         <item>
          <widget class="QLabel" name="label_7">
           <property name="text">
@@ -160,7 +174,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QSlider" name="horizontalSlider_3">
+         <widget class="QSlider" name="yearSlider">
           <property name="minimum">
            <number>1</number>
           </property>
@@ -169,6 +183,13 @@
           </property>
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="yearWeight">
+          <property name="text">
+           <string>1</string>
           </property>
          </widget>
         </item>
@@ -180,8 +201,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>270</y>
+      <x>200</x>
+      <y>290</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -190,11 +211,11 @@
      <string>Reset</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>41</y>
+      <x>190</x>
+      <y>40</y>
       <width>315</width>
       <height>67</height>
      </rect>
@@ -210,7 +231,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit"/>
+        <widget class="QLineEdit" name="highTime"/>
        </item>
       </layout>
      </item>
@@ -224,17 +245,17 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_2"/>
+        <widget class="QLineEdit" name="lowTime"/>
        </item>
       </layout>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>150</y>
+      <x>190</x>
+      <y>170</y>
       <width>269</width>
       <height>67</height>
      </rect>
@@ -250,7 +271,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_3"/>
+        <widget class="QLineEdit" name="lowYear"/>
        </item>
       </layout>
      </item>
@@ -264,7 +285,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_4"/>
+        <widget class="QLineEdit" name="highYear"/>
        </item>
       </layout>
      </item>
@@ -284,5 +305,54 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>genreSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>genreWeight</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>667</x>
+     <y>94</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>809</x>
+     <y>101</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>durationSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>durationWeight</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>658</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>813</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>yearSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>yearWeight</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>686</x>
+     <y>231</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>814</x>
+     <y>229</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
