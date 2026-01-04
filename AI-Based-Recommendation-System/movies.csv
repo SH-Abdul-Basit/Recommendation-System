@@ -1,0 +1,147 @@
+movie_genre,name,duration,years_released,description
+Action,The Dark Knight,152,2008,A superhero battles a chaotic villain in Gotham.
+Comedy,Superbad,113,2007,Two teens try to buy alcohol for a party.
+Drama,The Shawshank Redemption,142,1994,A man finds hope and friendship in prison.
+Horror,Get Out,104,2017,A young man uncovers a terrifying conspiracy.
+scifi,Interstellar,169,2014,Astronauts travel through a wormhole to save humanity.
+Action,Mad Max: Fury Road,120,2015,A warrior fights to survive in a desert wasteland.
+Comedy,Anchorman,94,2004,A news team causes chaos with their antics.
+Drama,Forrest Gump,142,1994,A simple man lives through major historical events.
+Horror,A Quiet Place,90,2018,A family must live in silence to avoid monsters.
+scifi,Blade Runner 2049,164,2017,A replicant detective uncovers a dangerous secret.
+Action,Inception,148,2010,A thief enters dreams to plant an idea.
+Comedy,The Grand Budapest Hotel,99,2014,A hotel concierge gets caught in a murder mystery.
+Drama,The Green Mile,189,1999,Prison guards encounter a man with miraculous powers.
+Horror,Hereditary,127,2018,A family is haunted by a terrifying legacy.
+scifi,Arrival,116,2016,A linguist tries to communicate with alien visitors.
+Action,John Wick,101,2014,A retired hitman seeks revenge for his dog.
+Comedy,The Hangover,100,2009,Friends wake up in Vegas with no memory of the night.
+Drama,Good Will Hunting,126,1997,A genius janitor struggles with his past and future.
+Horror,The Conjuring,112,2013,A family is terrorized by a powerful spirit.
+scifi,Dune,155,2021,A young nobleman leads a desert planet’s people.
+Action,The Matrix,136,1999,A hacker discovers the world is a simulation.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,The Pursuit of Happyness,117,2006,A struggling salesman fights to build a better life.
+Horror,It,135,2017,Children face a shape‑shifting evil in their town.
+scifi,The Martian,144,2015,An astronaut is stranded on Mars and must survive.
+Action,Die Hard,132,1988,A cop fights terrorists in a skyscraper.
+Comedy,Zoolander,89,2001,A model is brainwashed into an assassination plot.
+Drama,The Godfather,175,1972,A young man becomes the head of a crime family.
+Horror,Sinister,110,2012,A writer discovers cursed home movies.
+scifi,Star Wars: The Force Awakens,135,2015,A new hero rises in a galaxy far, far away.
+Action,Gladiator,155,2000,A general becomes a gladiator seeking vengeance.
+Comedy,Step Brothers,98,2008,Two grown men become stepbrothers and act like kids.
+Drama,The Social Network,120,2010,The story of how Facebook was created.
+Horror,The Babadook,94,2014,A mother and son are haunted by a monster from a book.
+scifi,Gravity,91,2013,An astronaut fights to survive in space.
+Action,The Avengers,143,2012,Heroes team up to stop an alien invasion.
+Comedy,Anchorman 2,118,2013,A news team brings chaos to 24‑hour cable news.
+Drama,The Departed,151,2006,An undercover cop and a mole in the police hunt each other.
+Horror,Insidious,103,2010,A family tries to save their son from a spirit world.
+scifi,Ready Player One,140,2018,Teens search for a hidden prize in a virtual world.
+Action,Casino Royale,144,2006,James Bond’s first mission as 007.
+Comedy,The 40-Year-Old Virgin,116,2005,A man who has never had sex tries to change that.
+Drama,The Revenant,156,2015,A frontiersman survives a bear attack and betrayal.
+Horror,The Witch,92,2015,A Puritan family is tormented by evil in the woods.
+scifi,The Last Jedi,152,2017,The Resistance fights the First Order in a galaxy at war.
+Action,Mission: Impossible – Fallout,147,2018,Ethan Hunt races to stop nuclear terrorists.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,American Beauty,122,1999,A man reevaluates his life during a midlife crisis.
+Horror,The Conjuring 2,134,2016,Paranormal investigators face a powerful demon.
+scifi,The Mandalorian: A New Hope,120,2020,A lone bounty hunter protects a mysterious child.
+Action,Logan,137,2017,An aging Wolverine protects a young mutant.
+Comedy,Anchorman 2,118,2013,A news team brings chaos to 24‑hour cable news.
+Drama,The Godfather Part II,202,1974,A young Don Vito rises to power in New York.
+Horror,It Chapter Two,169,2019,Adult friends face the same evil that haunted them as kids.
+scifi,The Rise of Skywalker,142,2019,The final battle between the Resistance and the First Order.
+Action,The Dark Knight Rises,164,2012,Batman returns to save Gotham from a powerful enemy.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,The Imitation Game,114,2014,Alan Turing cracks the Enigma code during WWII.
+Horror,Midsommar,148,2019,A woman experiences a terrifying cult during a Swedish festival.
+scifi,Gravity,91,2013,An astronaut fights to survive in space.
+Action,The Avengers,143,2012,Heroes team up to stop an alien invasion.
+Comedy,Step Brothers,98,2008,Two grown men become stepbrothers and act like kids.
+Drama,The Departed,151,2006,An undercover cop and a mole in the police hunt each other.
+Horror,Insidious,103,2010,A family tries to save their son from a spirit world.
+scifi,Ready Player One,140,2018,Teens search for a hidden prize in a virtual world.
+Action,Casino Royale,144,2006,James Bond’s first mission as 007.
+Comedy,The 40-Year-Old Virgin,116,2005,A man who has never had sex tries to change that.
+Drama,The Revenant,156,2015,A frontiersman survives a bear attack and betrayal.
+Horror,The Witch,92,2015,A Puritan family is tormented by evil in the woods.
+scifi,The Last Jedi,152,2017,The Resistance fights the First Order in a galaxy at war.
+Action,Mission: Impossible – Fallout,147,2018,Ethan Hunt races to stop nuclear terrorists.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,American Beauty,122,1999,A man reevaluates his life during a midlife crisis.
+Horror,The Conjuring 2,134,2016,Paranormal investigators face a powerful demon.
+scifi,The Mandalorian: A New Hope,120,2020,A lone bounty hunter protects a mysterious child.
+Action,Logan,137,2017,An aging Wolverine protects a young mutant.
+Comedy,Anchorman 2,118,2013,A news team brings chaos to 24‑hour cable news.
+Drama,The Godfather Part II,202,1974,A young Don Vito rises to power in New York.
+Horror,It Chapter Two,169,2019,Adult friends face the same evil that haunted them as kids.
+scifi,The Rise of Skywalker,142,2019,The final battle between the Resistance and the First Order.
+Action,The Dark Knight Rises,164,2012,Batman returns to save Gotham from a powerful enemy.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,The Imitation Game,114,2014,Alan Turing cracks the Enigma code during WWII.
+Horror,Midsommar,148,2019,A woman experiences a terrifying cult during a Swedish festival.
+scifi,Gravity,91,2013,An astronaut fights to survive in space.
+Action,The Avengers,143,2012,Heroes team up to stop an alien invasion.
+Comedy,Step Brothers,98,2008,Two grown men become stepbrothers and act like kids.
+Drama,The Departed,151,2006,An undercover cop and a mole in the police hunt each other.
+Horror,Insidious,103,2010,A family tries to save their son from a spirit world.
+scifi,Ready Player One,140,2018,Teens search for a hidden prize in a virtual world.
+Action,Casino Royale,144,2006,James Bond’s first mission as 007.
+Comedy,The 40-Year-Old Virgin,116,2005,A man who has never had sex tries to change that.
+Drama,The Revenant,156,2015,A frontiersman survives a bear attack and betrayal.
+Horror,The Witch,92,2015,A Puritan family is tormented by evil in the woods.
+scifi,The Last Jedi,152,2017,The Resistance fights the First Order in a galaxy at war.
+Action,Mission: Impossible – Fallout,147,2018,Ethan Hunt races to stop nuclear terrorists.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,American Beauty,122,1999,A man reevaluates his life during a midlife crisis.
+Horror,The Conjuring 2,134,2016,Paranormal investigators face a powerful demon.
+scifi,The Mandalorian: A New Hope,120,2020,A lone bounty hunter protects a mysterious child.
+Action,Logan,137,2017,An aging Wolverine protects a young mutant.
+Comedy,Anchorman 2,118,2013,A news team brings chaos to 24‑hour cable news.
+Drama,The Godfather Part II,202,1974,A young Don Vito rises to power in New York.
+Horror,It Chapter Two,169,2019,Adult friends face the same evil that haunted them as kids.
+scifi,The Rise of Skywalker,142,2019,The final battle between the Resistance and the First Order.
+Action,The Dark Knight Rises,164,2012,Batman returns to save Gotham from a powerful enemy.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,The Imitation Game,114,2014,Alan Turing cracks the Enigma code during WWII.
+Horror,Midsommar,148,2019,A woman experiences a terrifying cult during a Swedish festival.
+scifi,Gravity,91,2013,An astronaut fights to survive in space.
+Action,The Avengers,143,2012,Heroes team up to stop an alien invasion.
+Comedy,Step Brothers,98,2008,Two grown men become stepbrothers and act like kids.
+Drama,The Departed,151,2006,An undercover cop and a mole in the police hunt each other.
+Horror,Insidious,103,2010,A family tries to save their son from a spirit world.
+scifi,Ready Player One,140,2018,Teens search for a hidden prize in a virtual world.
+Action,Casino Royale,144,2006,James Bond’s first mission as 007.
+Comedy,The 40-Year-Old Virgin,116,2005,A man who has never had sex tries to change that.
+Drama,The Revenant,156,2015,A frontiersman survives a bear attack and betrayal.
+Horror,The Witch,92,2015,A Puritan family is tormented by evil in the woods.
+scifi,The Last Jedi,152,2017,The Resistance fights the First Order in a galaxy at war.
+Action,Mission: Impossible – Fallout,147,2018,Ethan Hunt races to stop nuclear terrorists.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,American Beauty,122,1999,A man reevaluates his life during a midlife crisis.
+Horror,The Conjuring 2,134,2016,Paranormal investigators face a powerful demon.
+scifi,The Mandalorian: A New Hope,120,2020,A lone bounty hunter protects a mysterious child.
+Action,Logan,137,2017,An aging Wolverine protects a young mutant.
+Comedy,Anchorman 2,118,2013,A news team brings chaos to 24‑hour cable news.
+Drama,The Godfather Part II,202,1974,A young Don Vito rises to power in New York.
+Horror,It Chapter Two,169,2019,Adult friends face the same evil that haunted them as kids.
+scifi,The Rise of Skywalker,142,2019,The final battle between the Resistance and the First Order.
+Action,The Dark Knight Rises,164,2012,Batman returns to save Gotham from a powerful enemy.
+Comedy,Tropic Thunder,107,2008,Actors get lost in a real jungle during filming.
+Drama,The Imitation Game,114,2014,Alan Turing cracks the Enigma code during WWII.
+Horror,Midsommar,148,2019,A woman experiences a terrifying cult during a Swedish festival.
+scifi,Gravity,91,2013,An astronaut fights to survive in space.
+Action,The Avengers,143,2012,Heroes team up to stop an alien invasion.
+Comedy,Step Brothers,98,2008,Two grown men become stepbrothers and act like kids.
+Drama,The Departed,151,2006,An undercover cop and a mole in the police hunt each other.
+Horror,Insidious,103,2010,A family tries to save their son from a spirit world.
+scifi,Ready Player One,140,2018,Teens search for a hidden prize in a virtual world.
+Action,Casino Royale,144,2006,James Bond’s first mission as 007.
+Comedy,The 40-Year-Old Virgin,116,2005,A man who has never had sex tries to change that.
+Drama,The Revenant,156,2015,A frontiersman survives a bear attack and betrayal.
+Horror,The Witch,92,2015,A Puritan family is tormented by evil in the woods.
+scifi,The Last Jedi,152,
+

@@ -17,6 +17,8 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void recommendPressed();
 private:
     Ui::MainWindow *ui;
 };
