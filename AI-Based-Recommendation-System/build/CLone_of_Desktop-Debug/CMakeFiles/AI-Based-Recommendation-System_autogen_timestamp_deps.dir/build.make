@@ -67,8 +67,8 @@ include CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps.dir/com
 include CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
-CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
+CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 
 AI-Based-Recommendation-System_autogen_timestamp_deps: CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps
 AI-Based-Recommendation-System_autogen_timestamp_deps: CMakeFiles/AI-Based-Recommendation-System_autogen_timestamp_deps.dir/build.make

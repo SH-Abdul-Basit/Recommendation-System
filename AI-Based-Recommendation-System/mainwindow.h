@@ -4,6 +4,15 @@
 #include <QMainWindow>
 #include <QSlider>
 #include <QLabel>
+#include <QCheckBox>
+#include <QList>
+#include <QDebug>
+#include <QSlider>
+#include <QLabel>
+#include <QStringList>
+#include <QFile>
+#include <QTextStream>
+#include <QDir>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

@@ -92,7 +92,7 @@
     <property name="title">
      <string>Weightage</string>
     </property>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -231,7 +231,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="highTime"/>
+        <widget class="QLineEdit" name="lowTime"/>
        </item>
       </layout>
      </item>
@@ -245,7 +245,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lowTime"/>
+        <widget class="QLineEdit" name="highTime"/>
        </item>
       </layout>
      </item>
